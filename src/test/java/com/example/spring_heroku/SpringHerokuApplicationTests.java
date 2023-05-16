@@ -16,7 +16,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 class SpringHerokuApplicationTests {
 	@Autowired
 	private MockMvc mockMvc;
-
 	@Test
 	void shouldReturnDefaultMessage() throws Exception{
 		this.mockMvc.perform(get("/"))
